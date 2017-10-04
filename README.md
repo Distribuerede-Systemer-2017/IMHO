@@ -42,14 +42,13 @@ IDEER TIL VIDEREUDVIKLING:
 KLASSER:
 - scr
 	- main
-		- java
-			- ResponseHandler
-			- Server
-			- Database
-				- UserTable
-				- QuizTable
-			- Endpoints
-			- Models
-				- User
-			- Utility
-				- Digester
+		- ResponseHandler
+		- Server
+		- Database
+			- UserTable
+			- QuizTable
+		- Endpoints
+		- Models
+			- User
+		- Utility
+			- Digester
