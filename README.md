@@ -57,3 +57,6 @@ KLASSER:
 			- Question
 		- Utility
 			- Digester
+
+ER diagram:
+- 
