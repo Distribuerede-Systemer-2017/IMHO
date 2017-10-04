@@ -46,8 +46,8 @@ KLASSER:
 		- Server
 		- Database
 			- UserTable
-			- QuizTable
 			- TopicTable
+			- QuizTable
 			- QuestionTable
 		- Endpoints
 		- Models
