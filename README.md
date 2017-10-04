@@ -19,8 +19,6 @@ SERVER:
 	- En admin skal kunne oprette en quiz
 	- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
 	- En admin skal kunne slette en quiz
-- Serveren skal håndtere lister af brugere i systemet.
-- Serveren skal kunne håndtere en funktion, som gør det muligt at slette en bruger i systemet.
 - Serveren skal håndtere en funktion, som gør det muligt at oprette en ny quiz
 
 KLIENT:
