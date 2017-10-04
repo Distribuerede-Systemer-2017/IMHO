@@ -40,3 +40,13 @@ IDEER TIL VIDEREUDVIKLING:
 - Slette/blokere spørgsmål - hvordan?		
 - Brugere skal kunne oprette spørgsmål
 - Server skal kunne slette brugere
+
+KLASSER:
+- scr
+	- main
+		- java
+			- server
+				- database
+				- endpoints
+				- models
+					- User
