@@ -41,3 +41,4 @@ IDEER TIL VIDEREUDVIKLING:
 - Admin godkende brugere 
 - Slette/blokere spørgsmål - hvordan?		
 - Brugere skal kunne oprette spørgsmål
+- Server skal kunne slette brugere
