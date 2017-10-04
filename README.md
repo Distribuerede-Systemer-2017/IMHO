@@ -14,8 +14,6 @@ SERVER:
 	- En gæst skal kunne oprette sig som bruger
 	- En bruger skal kunne logge ind/ud
 	- En bruger skal kunne tilgå en quiz under et respektivt fag
-	- En bruger skal kunne kommenterer på quiz, samt slette selvsamme kommentar 
-	- En admin skal derudover kunne slette alles kommentarer på quiz
 	- En admin skal kunne oprette en quiz
 	- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
 	- En admin skal kunne slette en quiz
@@ -29,8 +27,6 @@ KLIENT:
 - Klienten skal kunne tilgå quiz relateret til det specifikke fag
 - Klienten skal kunne vælge quizzen samt tage den. 
 - Klienten skal modtage feedback ud fra brugerens svar. 
-- Klienten skal kunne tilføje kommentar på quizzen
-- Klienten skal kunne slette selvsamme kommentar. 
 - Klienten skal ud fra brugertype se forskellige menuer. 
 
 IDEER TIL VIDEREUDVIKLING: 
@@ -40,6 +36,7 @@ IDEER TIL VIDEREUDVIKLING:
 - Slette/blokere spørgsmål - hvordan?		
 - Brugere skal kunne oprette spørgsmål
 - Server skal kunne slette brugere
+- Kommentarer til quiz
 
 KLASSER:
 - scr
