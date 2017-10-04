@@ -47,8 +47,13 @@ KLASSER:
 		- Database
 			- UserTable
 			- QuizTable
+			- TopicTable
+			- QuestionTable
 		- Endpoints
 		- Models
 			- User
+			- Topic
+			- Quiz
+			- Question
 		- Utility
 			- Digester
