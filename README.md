@@ -43,10 +43,13 @@ KLASSER:
 - scr
 	- main
 		- java
-			- server
+			- ResponseHandler
+			- Server
 				- database
 					- UserTable
 					- QuizTable
 				- endpoints
 				- models
 					- User
+				- utility
+					- Digester
