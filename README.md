@@ -16,14 +16,14 @@ SERVER:
 - Serveren skal kunne validere login baseret på et hashet password.
 - Serveren skal kunne oprette og opdatere en bruger.
 - Serveren skal udstille et API, som gør det nemt at udarbejde klienter der kan trække på serverens funktionalitet. API’et skal dække følgende funktionaliteter:
-- En gæst skal kunne oprette sig som bruger
-- En bruger skal kunne logge ind/ud
-- En bruger skal kunne tilgå en quiz under et respektivt fag
-- En bruger skal kunne kommenterer på quiz, samt slette selvsamme kommentar 
-- En admin skal derudover kunne slette alles kommentarer på quiz
-- En admin skal kunne oprette en quiz
-- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
-- En admin skal kunne slette en quiz
+	- En gæst skal kunne oprette sig som bruger
+	- En bruger skal kunne logge ind/ud
+	- En bruger skal kunne tilgå en quiz under et respektivt fag
+	- En bruger skal kunne kommenterer på quiz, samt slette selvsamme kommentar 
+	- En admin skal derudover kunne slette alles kommentarer på quiz
+	- En admin skal kunne oprette en quiz
+	- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
+	- En admin skal kunne slette en quiz
 - Serveren skal håndtere lister af brugere i systemet.
 - Serveren skal kunne håndtere en funktion, som gør det muligt at slette en bruger i systemet.
 - Serveren skal håndtere en funktion, som gør det muligt at oprette en ny quiz
