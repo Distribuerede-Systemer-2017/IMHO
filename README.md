@@ -47,6 +47,8 @@ KLASSER:
 		- java
 			- server
 				- database
+					- UserTable
+					- QuizTable
 				- endpoints
 				- models
 					- User
