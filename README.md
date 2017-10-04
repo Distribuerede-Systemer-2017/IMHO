@@ -26,7 +26,6 @@ KLIENT:
 - Klienten skal kunne tilføje quiz til de respektive fag samt svar. 
 - Klienten skal kunne opdatere en quiz
 - Klienten skal kunne slette quizzen
-- Klienten skal kunne tilgå diverse fag. 
 - Klienten skal kunne tilgå quiz relateret til det specifikke fag
 - Klienten skal kunne vælge quizzen samt tage den. 
 - Klienten skal modtage feedback ud fra brugerens svar. 
