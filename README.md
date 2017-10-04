@@ -5,9 +5,9 @@ KRAVSPECIFIKATION
 
 BESKRIVELSE: 
 
-Applikationen skal fungere som en feedback metode for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer. 
+Applikationen skal fungere som eksamenstræning for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer. 
 					
-SERVER: 						
+SERVER: 	
 - Serveren skal kunne validere login baseret på et hashet password.
 - Serveren skal kunne oprette og opdatere en bruger.
 - Serveren skal udstille et API, som gør det nemt at udarbejde klienter der kan trække på serverens funktionalitet. API’et skal dække følgende funktionaliteter:
