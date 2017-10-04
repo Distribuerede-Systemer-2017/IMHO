@@ -26,7 +26,8 @@ KLIENT:
 - Klienten skal kunne slette quizzen
 - Klienten skal kunne tilgå quiz relateret til det specifikke fag
 - Klienten skal kunne vælge quizzen samt tage den. 
-- Klienten skal modtage feedback ud fra brugerens svar. 
+- Klienten skal kunne vise svarene på de enkelte spørgsmålene.
+- Klienten skal vise samlet score udfra brugerens svar.
 - Klienten skal ud fra brugertype se forskellige menuer. 
 
 IDEER TIL VIDEREUDVIKLING: 
