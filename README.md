@@ -58,5 +58,8 @@ KLASSER:
 		- Utility
 			- Digester
 
-ER diagram:
-- 
+ER DIAGRAM:
+- g
+- g
+
+
