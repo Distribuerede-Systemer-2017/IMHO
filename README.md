@@ -5,8 +5,7 @@ KRAVSPECIFIKATION
 
 BESKRIVELSE: 
 
-Applikationen skal fungere som eksamenstræning for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer. 
-- Multiple choice spørgsmål
+Applikationen skal fungere som eksamenstræning for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede multiple choice quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer. 
 					
 SERVER: 	
 - Serveren skal kunne validere login baseret på et hashet password.
