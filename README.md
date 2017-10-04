@@ -5,12 +5,7 @@ KRAVSPECIFIKATION
 
 BESKRIVELSE: 
 
-Applikationen skal fungere som en feedback metode for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer.  
-
-- Slette/blokere spørgsmål - hvordan? Evt. udvidelsesmulighed 
-- Multiple choice 
-- Brugere skal kunne oprette spørgsmål
-- Kategorierne (fag og semester) skal ligge der i forvejen - hardcoded
+Applikationen skal fungere som en feedback metode for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer. 
 					
 SERVER: 						
 - Serveren skal kunne validere login baseret på et hashet password.
@@ -46,5 +41,5 @@ IDEER TIL VIDEREUDVIKLING:
 - Gemme resultater samt se statistik. 
 - Glemt password
 - Admin godkende brugere 
-			
-		
+- Slette/blokere spørgsmål - hvordan?		
+- Brugere skal kunne oprette spørgsmål
