@@ -19,11 +19,10 @@ SERVER:
 	- En admin skal kunne oprette en quiz
 	- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
 	- En admin skal kunne slette en quiz
-- Serveren skal håndtere en funktion, som gør det muligt at oprette en ny quiz
 
 KLIENT:
 - Klienten skal kunne tilgå loginsiden samt logge ind.  
-- Klienten skal kunne oprette sig som bruger samt slette brugeren. 
+- Klienten skal kunne oprette sig som bruger
 - Klienten skal kunne tilføje quiz til de respektive fag samt svar. 
 - Klienten skal kunne opdatere en quiz
 - Klienten skal kunne slette quizzen
