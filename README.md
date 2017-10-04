@@ -45,11 +45,11 @@ KLASSER:
 		- java
 			- ResponseHandler
 			- Server
-				- database
-					- UserTable
-					- QuizTable
-				- endpoints
-				- models
-					- User
-				- utility
-					- Digester
+			- Database
+				- UserTable
+				- QuizTable
+			- Endpoints
+			- Models
+				- User
+			- Utility
+				- Digester
