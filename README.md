@@ -3,6 +3,7 @@ Gruppe IMHO - Eksamensquiz
 
 KRAVSPECIFIKATION 
 BESKRIVELSE: 
+
 Applikationen skal fungere som en feedback metode for de studerende på ha(it). Rent praktisk skal en administrator (forelæser) oprette pensum relaterede quizzes. Alle brugerne skal kunne tilgå quizzes og forsøge at besvare dem, få resultaterne udskrevet, samt tilføje kommentarer.  
 
 - Slette/blokere spørgsmål - hvordan? Evt. udvidelsesmulighed 
