@@ -44,12 +44,18 @@ KLASSER:
 	- main
 		- ResponseHandler
 		- Server
+		- Controller
+			- "Funktionalitet"
+			- DB-wrapper
 		- Database
 			- UserTable
 			- TopicTable
 			- QuizTable
 			- QuestionTable
-		- Endpoints
+		- View
+			- Endpoint1
+			- Endpoint2
+			- Endpoint3
 		- Models
 			- User
 			- Topic
