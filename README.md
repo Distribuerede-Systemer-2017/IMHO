@@ -9,13 +9,13 @@ Applikationen skal fungere som eksamenstræning for de studerende på ha(it). Re
 					
 SERVER: 	
 - Serveren skal kunne validere login baseret på et hashet password.
-- Serveren skal kunne oprette og opdatere en bruger.
+- Serveren skal kunne oprette en bruger.
 - Serveren skal udstille et API, som gør det nemt at udarbejde klienter der kan trække på serverens funktionalitet. API’et skal dække følgende funktionaliteter:
 	- En gæst skal kunne oprette sig som bruger
 	- En bruger skal kunne logge ind/ud
 	- En bruger skal kunne tilgå en quiz under et respektivt fag
+	- En bruger skal kunne se samlet score udfra brugerens svar på quiz.
 	- En admin skal kunne oprette en quiz
-	- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
 	- En admin skal kunne slette en quiz
 
 KLIENT:
@@ -38,6 +38,8 @@ IDEER TIL VIDEREUDVIKLING:
 - Brugere skal kunne oprette spørgsmål
 - Server skal kunne slette brugere
 - Kommentarer til quiz
+- En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
+
 
 KLASSER:
 - scr
