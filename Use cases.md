@@ -90,6 +90,7 @@ Use case 8 - Starte en quiz:
 - Forudsætninger: 
   - Programmet skal køre
 -	Uddybende beskrivelse:
+    1. hei
   1. Fra ”bruger-menuen”, vælges et fag via ”fag-knapperne” som er udstillet på den pågældende klientside på det pågældende fag’s menu, vælges nu en quiz 
   2. Quizzen påbegyndes via en ”Start Quiz” knap.
   3. Når quizzen er slut, altså når brugeren er kommet igennem alle spørgsmål, udregner systemet en ”score”, som viser brugeren hvor mange rigtige besvarelser. 
