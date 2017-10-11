@@ -1,16 +1,4 @@
 
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-![alt text](https://scontent-arn2-1.xx.fbcdn.net/v/t34.0-12/22386423_1906263766052150_887699673_n.png?oh=0dc571ca0a88bca7ca488dcaa4f6c35c&oe=59DF5B92 "UseCases")
-
-
 Use case 1 - Opret bruger:
 Beskrivelse: 
 Forudsætninger:
