@@ -31,4 +31,57 @@ Use case 2 - Log ind:
 - Uddybende beskrivelse:
 - Supplerende oplysninger:
 
+Use case 3 - Se liste over oprettede quizzes:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 4 - Oprette ny quiz med indhold:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 5 - Slette quiz:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 6 - Se profil:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 7 - Vægle fag:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 8 - Starte en quiz:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 9 - Svare på quiz spørgsmål:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 10 - Se samlet score på quiz:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
+
+Use case 11 - Log ud:
+- Beskrivelse: 
+- Forudsætninger:
+- Uddybende beskrivelse:
+- Supplerende oplysninger:
 
