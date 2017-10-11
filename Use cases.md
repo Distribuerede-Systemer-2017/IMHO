@@ -80,10 +80,10 @@ Use case 7 - Vægle fag:
 - Supplerende oplysninger:
 
 Use case 8 - Starte en quiz: 
-- 	Beskrivelse:
-Brugeren kan starte en Quiz og teste sin forståelse i et fag. 
+- Beskrivelse: 
+- Brugeren kan starte en Quiz og teste sin forståelse i et fag. 
 - Forudsætninger:
-Programmet skal køre
+- Programmet skal køre
 -	Uddybende beskrivelse:
 1. Fra ”bruger-menuen”, vælges et fag via ”fag-knapperne” som er udstillet på den pågældende klientside 
 på det pågældende fag’s menu, vælges nu en quiz 
