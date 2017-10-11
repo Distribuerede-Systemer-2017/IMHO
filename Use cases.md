@@ -79,11 +79,18 @@ Use case 5 - Slette quiz:
 - Uddybende beskrivelse:
 - Supplerende oplysninger:
 
+
 Use case 6 - Se profil:
 - Beskrivelse: 
+  -	Brugeren kan se sin egen brugeroplysninger (profil)
 - Forudsætninger:
+  -	Programmet skal køre
+  -	Brugeren skal være logget ind
 - Uddybende beskrivelse:
+  -	Efter aktøren er logget ind, skal brugeren vælge ”min profil” knappen.
+  -	Brugeren omstilles til sin egen profilside, hvor der er mulighed for se diverse oplysninger (brugernavn, password og gennemførte    quizzes m.m.) om brugeren
 - Supplerende oplysninger:
+  -	Man skal have en bruger i programmet før man kan se sin profil. Hvis man ikke har en bruger henvises der til use case 1.
 
 Use case 7 - Vægle fag:
 - Beskrivelse: 
