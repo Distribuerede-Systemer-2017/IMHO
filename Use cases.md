@@ -71,6 +71,7 @@ Use case 4 - Oprette ny quiz med indhold:
   3. Administrator angiver korrrekt svar blandt svar mulighederne 
   4. Administrator offentliggøre Quizzen
 - Supplerende oplysninger:
+  - Fra denne use case kan man gå videre til use case 5 og 8 
 
 Use case 5 - Slette quiz:
 - Beskrivelse: 
