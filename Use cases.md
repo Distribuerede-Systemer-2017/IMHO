@@ -21,9 +21,21 @@
 
 Use case 1 - Opret bruger:
 - Beskrivelse: 
+  Aktøren	kan	oprette	en	bruger for	at	få	tilgang	til	programmet	som	bruger.	
 - Forudsætninger:
+  Programmet skal køre
 - Uddybende beskrivelse:
+  1. Fra log ind siden, vælg “Opret	bruger”	knappen.
+  2. Man omstilles til ny side, hvor man kan udfylde brugeroplysninger
+    - username
+    - password
+  3. Klik	på	“Opret	bruger” knappen, og brugeren vil blive oprettet. Hvis brugernavnet ikke er ledigt og begge felter ikke er udfyldt, vil aktøren blive henvist til  opret bruger siden igen, og får mulighedfor at udfylde felterne igen.
+  4. Efter oprettelse af bruger, vil akøtren blive videre stillet til programmets log ind side	
 - Supplerende oplysninger:
+  Brugeren	bliver	ikke	automatisk	logget	ind	ved	oprettelse af	bruger.	For	at sætte	i	gang	brugen	af programmet,	skal	use	case	2	udføres.	
+
+
+
 
 Use case 2 - Log ind:
 - Beskrivelse: 
