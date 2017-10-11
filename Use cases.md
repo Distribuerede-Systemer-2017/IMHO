@@ -44,9 +44,10 @@ Use case 2 - Log ind:
   1. Udfyld brugernavn	og	kode	i	tekstfelterne	på	programmets	log-ind-side.
   2. Tryk på "Log	ind" knappen.	
   3. Brugeren valideres.
+      - Ved ugyldigt brugernavn og kodeord, vil vi få en fejlmeddelelse. 
   4. Programmet	 viser menu med udgangspunkt i om man er bruger eller administrator.
 - Supplerende oplysninger:
-  - HVis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	kan	oprette	en	bruger.		
+  - Hvis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	kan	oprette	en	bruger.		
 
 Use case 3 - Se liste over oprettede quizzes:
 - Beskrivelse: 
