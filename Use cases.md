@@ -30,8 +30,8 @@ Use case 1 - Opret bruger:
       - username
       - password
   3. Klik	på	“Opret	bruger” knappen, og brugeren vil blive oprettet. 
-      - Hvis brugernavnet ikke er ledigt eller begge felter ikke er udfyldt, vil aktøren blive henvist til  opret-bruger-siden igen, og får mulighedfor at udfylde felterne igen.
-  4. Efter oprettelse af bruger, vil akøtren blive videre stillet til programmets log-ind-side	
+      - Hvis brugernavnet ikke er ledigt eller begge felter ikke er udfyldt, vil aktøren blive henvist til  opret-bruger-siden igen, og får mulighed for at udfylde felterne igen.
+  4. Efter oprettelse af bruger, vil aktøren blive viderestillet til programmets log-ind-side	
 - Supplerende oplysninger:
   - Brugeren	bliver	ikke	automatisk	logget	ind	ved	oprettelse af	bruger.	For	at logge ind i programmet,	skal	use	case	2	udføres.	
 
