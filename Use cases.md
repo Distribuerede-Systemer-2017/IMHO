@@ -27,22 +27,26 @@ Use case 1 - Opret bruger:
 - Uddybende beskrivelse:
   1. Fra log-ind-siden, vælges “Opret	bruger”	knappen.
   2. Man omstilles til opret-bruger-siden, hvor man kan udfylde brugeroplysninger i tekstfelterne:
-      - username
-      - password
-  3. Klik	på	“Opret	bruger” knappen, og brugeren vil blive oprettet. 
+      - brugernavn
+      - kode
+  3. Klik	på	“Opret	bruger” knappen, og brugeren vil blive oprettet (kodeord vil blive hashet). 
       - Hvis brugernavnet ikke er ledigt eller begge felter ikke er udfyldt, vil aktøren blive henvist til  opret-bruger-siden igen, og får mulighed for at udfylde felterne igen.
   4. Efter oprettelse af bruger, vil aktøren blive viderestillet til programmets log-ind-side	
 - Supplerende oplysninger:
   - Brugeren	bliver	ikke	automatisk	logget	ind	ved	oprettelse af	bruger.	For	at logge ind i programmet,	skal	use	case	2	udføres.	
 
-
-
-
 Use case 2 - Log ind:
 - Beskrivelse: 
+  - Aktøren	skal	logge	ind	for	at	bruge	programmet (både admin og bruger).	
 - Forudsætninger:
+  - Aktøren	skal	have et	gyldigt	brugernavn	samt	kode.
 - Uddybende beskrivelse:
+  1. Udfyld brugernavn	og	kode	i	tekstfelterne	på	programmets	log-ind-side.
+  2. Tryk på "Log	ind" knappen.	
+  3. Brugeren valideres.
+  4. Programmet	 viser menu med udgangspunkt i om man er bruger eller administrator.
 - Supplerende oplysninger:
+  - HVis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	kan	oprette	en	bruger.		
 
 Use case 3 - Se liste over oprettede quizzes:
 - Beskrivelse: 
