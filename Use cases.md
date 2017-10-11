@@ -37,7 +37,7 @@ Use case 1 - Opret bruger:
 
 Use case 2 - Log ind:
 - Beskrivelse: 
-  - Aktøren	skal	logge	ind	for	at	bruge	programmet (både admin og bruger).	
+  - Aktøren	skal	logge	ind	for	at	bruge	programmet (uanset om man er bruger eller administrator).	
 - Forudsætninger:
   - Aktøren	skal	have et	gyldigt	brugernavn	samt	kode.
 - Uddybende beskrivelse:
