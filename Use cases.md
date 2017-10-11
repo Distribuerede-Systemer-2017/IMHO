@@ -66,6 +66,10 @@ Use case 4 - Oprette ny quiz med indhold:
 - Forudsætninger: 
   - indlogget som administrator
 - Uddybende beskrivelse:
+  1. Fra administrator-menuen vælges opret Quiz
+  2- Administrator oprettet spørgsmål, med svar muligheder
+  3. Administrator angiver korrrekt svar blandt svar mulighederne 
+  4. Administrator offentliggøre Quizzen
 - Supplerende oplysninger:
 
 Use case 5 - Slette quiz:
