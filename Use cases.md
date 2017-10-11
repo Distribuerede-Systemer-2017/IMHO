@@ -51,8 +51,11 @@ Use case 2 - Log ind:
 
 Use case 3 - Se liste over oprettede quizzes:
 - Beskrivelse: 
+  - Aktøren skal kunne se en liste over de quiz der ligger i systemet. 
 - Forudsætninger:
+  - Indlogget som administrator 
 - Uddybende beskrivelse:
+  
 - Supplerende oplysninger:
 
 Use case 4 - Oprette ny quiz med indhold:
