@@ -81,17 +81,17 @@ Use case 7 - Vægle fag:
 
 Use case 8 - Starte en quiz: 
 - 	Beskrivelse:
-o	Brugeren kan starte en Quiz og teste sin forståelse i et fag. 
+Brugeren kan starte en Quiz og teste sin forståelse i et fag. 
 - Forudsætninger:
-o	Programmet skal køre
+Programmet skal køre
 -	Uddybende beskrivelse:
 1. Fra ”bruger-menuen”, vælges et fag via ”fag-knapperne” som er udstillet på den pågældende klientside 
 på det pågældende fag’s menu, vælges nu en quiz 
-3. Quizzen påbegyndes via en ”Start Quiz” knap.
-4. Når quizzen er slut, altså når brugeren er kommet igennem alle spørgsmål, udregner systemet en ”score”, som viser brugeren hvor mange rigtige besvarelser. 
+2. Quizzen påbegyndes via en ”Start Quiz” knap.
+3. Når quizzen er slut, altså når brugeren er kommet igennem alle spørgsmål, udregner systemet en ”score”, som viser brugeren hvor mange rigtige besvarelser. 
 - Supplerende oplysninger:
-o	Admin skal have oprettet en quiz til faget, før man kan ”starte” en quiz
-o	Hvis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	kan	oprette	en	bruger.
+Admin skal have oprettet en quiz til faget, før man kan ”starte” en quiz
+Hvis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	kan	oprette	en	bruger.
 
 
 Use case 9 - Svare på quiz spørgsmål:
