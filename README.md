@@ -9,9 +9,8 @@ Applikationen skal fungere som eksamenstræning for de studerende på ha(it). Re
 					
 SERVER: 	
 - Serveren skal kunne validere login baseret på et hashet password.
-- Serveren skal kunne oprette en bruger. //Slettes?
 - Serveren skal udstille et API, som gør det nemt at udarbejde klienter der kan trække på serverens funktionalitet. API’et skal dække følgende funktionaliteter:
-	- En gæst skal kunne oprette sig som bruger //med hashet password?
+	- En gæst skal kunne oprette sig som bruger med hashet password
 	- En bruger og en admin skal kunne logge ind/ud
 	- En bruger skal kunne se sin profil 
 	- En bruger skal kunne tilgå en quiz under et respektivt fag
@@ -29,8 +28,6 @@ KLIENT:
 - Klienten skal vise en oversigt over alle oprettede quizzes 
 - Klient skal kunne vise brugeroplysninger 
 - Klienten skal kunne tilgå quiz relateret til det specifikke fag
-- Klienten skal kunne vælge quizzen samt tage den. //Slettes?
-- Klienten skal kunne vise svarene på de enkelte spørgsmål. //efter quizzen? evt droppe det?
 - Klienten skal vise samlet score udfra brugerens svar.
 - Klienten skal ud fra brugertype gæst/admin/bruger se forskellige menuer. 
 
