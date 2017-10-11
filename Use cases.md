@@ -58,7 +58,7 @@ Use case 3 - Se liste over oprettede quizzes:
   1. I fagmenuen trykker man på respektive fag 
   2. En liste over quiz der er oprettet i systemet fremvises. 
 - Supplerende oplysninger:
-  - Fra den use case kan man gå videre til use case 4 og 5. 
+  - Fra den use case kan man gå videre til use case 4 og 5. 
 
 Use case 4 - Oprette ny quiz med indhold:
 - Beskrivelse: 
