@@ -42,7 +42,7 @@ Use case 2 - Log ind:
   - Aktøren	skal	have et	gyldigt	brugernavn	samt	kode.
 - Uddybende beskrivelse:
   1. Udfyld brugernavn	og	kode	i	tekstfelterne	på	programmets	log-ind-side.
-  2. Tryk på "Log	ind" knappen.	
+  . Tryk på "Log	ind" knappen.	
   3. Brugeren valideres.
       - Ved ugyldigt brugernavn og kodeord, vil vi få en fejlmeddelelse. 
   4. Programmet	 viser menu med udgangspunkt i om man er bruger eller administrator.
@@ -51,12 +51,14 @@ Use case 2 - Log ind:
 
 Use case 3 - Se liste over oprettede quizzes:
 - Beskrivelse: 
-  - Aktøren skal kunne se en liste over de quiz der ligger i systemet. 
+  - Aktøren skal kunne se en liste over de quiz der ligger indenfor et specifikt fag. 
 - Forudsætninger:
   - Indlogget som administrator 
 - Uddybende beskrivelse:
-  
+  1. I fagmenuen trykker man på respektive fag 
+  2. En liste over quiz der er oprettet i systemet fremvises. 
 - Supplerende oplysninger:
+  - Fra den use case kan man gå videre til use case 4 og 5. 
 
 Use case 4 - Oprette ny quiz med indhold:
 - Beskrivelse: 
