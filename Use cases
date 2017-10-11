@@ -1,19 +1,4 @@
 
-Use case tabel:
-|             | USE CASE                           | GUEST  | USER | ADMIN |  
-|-------------|------------------------------------|--------|------|-------|
-| Use case 1: | Opret bruger:                      |   X    |      |       |
-| Use case 2: | Login:                             |   x    |      |       |
-| Use case 3: | Oprette events:                    |   x    |      |       |
-| Use case 4: | Opdatere egne events:              |   x    |      |       |
-| Use case 5: | Se liste med events:               |   x    |      |       | 
-| Use case 6: | Se deltagerliste på valgte events: |   x    |      |       | 
-| Use case 7: | Slette egne events:                |   x    |      |       | 
-| Use case 8: | Log ud:                            |   x    |      |       | 
-| Use case 9: | Log ud:                            |   x    |      |       | 
-| Use case 10: | Log ud:                           |   x    |      |       | 
-| Use case 11: | Log ud:                           |   x    |      |       | 
-
 
 
 
