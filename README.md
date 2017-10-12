@@ -59,7 +59,7 @@ KLASSER:
 			- Endpoint1
 			- Endpoint2
 			- Endpoint3
-		- Models
+		- Server.Models
 			- User
 			- Topic
 			- Quiz

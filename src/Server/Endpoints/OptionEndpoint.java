@@ -1,4 +1,4 @@
-package Endpoints;
+package Server.Endpoints;
 
 public class OptionEndpoint {
 }

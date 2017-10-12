@@ -1,4 +1,4 @@
-package ResetDatabase;
+package Server.ResetDatabase;
 
 import org.apache.ibatis.jdbc.ScriptRunner;
 
