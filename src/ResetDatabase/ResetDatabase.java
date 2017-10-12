@@ -1,3 +1,5 @@
+package ResetDatabase;
+
 import org.apache.ibatis.jdbc.ScriptRunner;
 
 import java.io.FileInputStream;
