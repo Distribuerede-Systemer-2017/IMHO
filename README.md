@@ -47,7 +47,7 @@ KLASSER:
 	- main
 		- ResponseHandler
 		- Server
-		- Controller
+		- Server.Controller
 			- "Funktionalitet"
 			- DB-wrapper
 		- Database
