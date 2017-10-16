@@ -1,4 +1,4 @@
-package server.resetdatabase;
+package java.server.resetdatabase;
 
 import org.apache.ibatis.jdbc.ScriptRunner;
 
@@ -82,7 +82,7 @@ public class ResetDatabase {
         System.out.println("Create new database ...");
 
         //Run script
-        String sqlFilePath = getWorkingDir() + "/src/server/resetdatabase/quizDB.sql";
+        String sqlFilePath = getWorkingDir() + "/src/java.server/resetdatabase/quizDB.sql";
         executeSql(sqlFilePath);
         System.out.println("Sql script done!");
     }

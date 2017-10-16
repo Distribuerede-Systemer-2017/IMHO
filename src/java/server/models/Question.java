@@ -1,4 +1,4 @@
-package server.models;
+package java.server.models;
 
 public class Question {
 

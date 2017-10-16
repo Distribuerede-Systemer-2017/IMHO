@@ -2,7 +2,7 @@
 --
 -- Host: distribueredesystemer.cqsg17giwvxa.eu-central-1.rds.amazonaws.com    Database: imho
 -- ------------------------------------------------------
--- server version	5.6.35-log
+-- java.server version	5.6.35-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

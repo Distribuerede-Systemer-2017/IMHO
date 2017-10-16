@@ -1,4 +1,4 @@
-package server.endpoints;
+package java.server.endpoints;
 
 public class QuizEndpoint {
 }

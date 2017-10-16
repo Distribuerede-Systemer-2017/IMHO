@@ -1,4 +1,4 @@
-package server.controller;
+package java.server.controller;
 
 public class AdminController {
 }

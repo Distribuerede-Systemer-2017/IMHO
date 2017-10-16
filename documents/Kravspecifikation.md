@@ -37,7 +37,7 @@ IDEER TIL VIDEREUDVIKLING:
 - Admin godkende brugere 
 - Slette/blokere spørgsmål - hvordan?		
 - Brugere skal kunne oprette spørgsmål
-- server skal kunne slette brugere
+- java.server skal kunne slette brugere
 - Kommentarer til quiz
 - En admin skal kunne opdatere en quiz (tilføje spørgsmål, redigere spørgsmål og slette spørgsmål)
 
@@ -46,8 +46,8 @@ KLASSER:
 - scr
 	- main
 		- ResponseHandler
-		- server
-		- server.controller
+		- java.server
+		- java.server.controller
 			- "Funktionalitet"
 			- DB-wrapper
 		- Database
@@ -59,7 +59,7 @@ KLASSER:
 			- Endpoint1
 			- Endpoint2
 			- Endpoint3
-		- server.models
+		- java.server.models
 			- User
 			- Topic
 			- Quiz
