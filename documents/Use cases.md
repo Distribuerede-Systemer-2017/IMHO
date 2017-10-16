@@ -92,11 +92,11 @@ Use case 6 - Se profil:
 - Supplerende oplysninger:
   -	Man skal have en bruger i programmet før man kan se sin profil. Hvis man ikke har en bruger henvises der til use case 1.
 
-Use case 7 - Vægle fag:
-- Beskrivelse: 
-- Forudsætninger:
-- Uddybende beskrivelse:
-- Supplerende oplysninger:
+Use case 7 - Vælge fag:
+- Beskrivelse: Brugeren skal kunne vælge et fag blandt en liste med forskellige fag.
+- Forudsætninger: Programmet skal køre, samt brugeren skal være logget ind.
+- Uddybende beskrivelse: Faget skal vælges fra en form for menu/liste vi opretter.
+- Supplerende oplysninger: Admin skal have oprettet faget for at en bruger er i stand til at vælge det senere hen.
 
 Use case 8 - Starte en quiz: 
 - Beskrivelse: Brugeren kan starte en Quiz og teste sin forståelse i et fag. 
