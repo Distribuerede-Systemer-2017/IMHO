@@ -1,4 +1,4 @@
-package Server.Endpoints;
+package server.endpoints;
 
 public class QuizEndpoint {
 }

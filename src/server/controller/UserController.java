@@ -1,4 +1,4 @@
-package Server.Controller;
+package server.controller;
 
 public class UserController {
 }

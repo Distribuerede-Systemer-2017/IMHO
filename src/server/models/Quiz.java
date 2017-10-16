@@ -1,4 +1,4 @@
-package Server.Models;
+package server.models;
 
 public class Quiz {
 
