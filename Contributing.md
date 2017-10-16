@@ -4,6 +4,28 @@
 3. Åbn IntelliJ, lav et nyt projekt og placer projektet oven i dette repository
 4. Højreklik på `pom.xml` og tryk "Add as Maven Project".
 
+### Nulstil database
+1. Før funktionen kan køres, skal i have MySQL installeret på jeres computer. 
+2. I ResetDatabase-klassen på linje 24, 25 og 26 kan I se at System.getenv(...) bliver kaldt og forventer at finde en variabel. Da disse ikke er sat på forhånd I jeres projekt, skal disse konfigureres inden systemet kan køre.
+3. Klik på "ResetDatabase" konfigurationen ved den grønne play-knap øverst til højre
+4. Klik "Edit Configurations ..."
+5. Klik på "..." yderste til højre ved "Environment Variables"
+6. Klik på "+" nederst til venstre
+7. Opret og navngiv nu følgende variable og indsæt de værdier som passer til dit system: 
+```
+DATABASE_HOST (default er localhost)
+DATABASE_NAME (quizDB)
+DATABASE_PORT (default er 3306)
+DATABASE_USER (dit lokale brugernavn)
+DATABASE_PASSWORD (dit lokale password)
+```
+
+8. Tryk OK og OK
+9. Kør programmet igen
+
+Hvis alt virker som det skal, så printes en masse tekst i konsollen og du kan nu åbne din databse og se hvilke tabeller
+samt værdier der er blevet indsat. 
+
 ## Git Branch
 Det er dårlig kodeskik at kode i `master-branch`, da den ses som det "endelige produkt". Lav derfor egen branch. 
 1. I terminalen / git bash skriv da `git branch branchname`. 
