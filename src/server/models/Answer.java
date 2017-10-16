@@ -1,4 +1,4 @@
-package java.server.models;
+package server.models;
 
 public class Answer {
 

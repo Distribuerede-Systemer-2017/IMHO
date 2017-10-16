@@ -1,4 +1,4 @@
-package java.server.endpoints;
+package server.endpoints;
 
 public class CourseEndpoint {
 }
