@@ -130,8 +130,15 @@ Use case 10 - Se samlet score på quiz:
 - Supplerende oplysninger:
 
 Use case 11 - Log ud:
-- Beskrivelse: 
-- Forudsætninger:
-- Uddybende beskrivelse:
-- Supplerende oplysninger:
+•	Beskrivelse:
+o	Aktøren har mulighed for at logge ud. 
+•	Forudsætninger:
+o	Aktøren er allerede logget ind.
+•	Uddybende beskrivelse:
+i.	Brugeren trykker på ”Log ud” knappen.
+ii.	Brugen logges af systemet.
+iii.	Programmet viser Use case 1 og 2.
+•	Supplerende oplysninger:
+o	Det er ikke muligt at fortryde en ”log ud”. Herefter skal der logges ind igen. 
+
 
