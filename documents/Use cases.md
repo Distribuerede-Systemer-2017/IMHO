@@ -74,11 +74,17 @@ Use case 4 - Oprette ny quiz med indhold:
   - Fra denne use case kan man gå videre til use case 5 og 8 
 
 Use case 5 - Slette quiz:
-- Beskrivelse: 
+- Beskrivelse:
+  - En administrator kan slette en quiz inden for et fag.
 - Forudsætninger:
+  - User skal være logget ind som administrator.
 - Uddybende beskrivelse:
+  - I fagmenuen vælges det ønskede fag.
+  - En liste over quizzerne, der er oprettet i systemet fremvises.
+  - ’Slet Quiz’ vælges for den ønskede quiz.
+  - Valgte quiz fjernes fra listen over quizzer.
 - Supplerende oplysninger:
-
+  - Der skal eksistere en quiz inden for det valgte fag. Hvis ikke en quiz er oprettet henvises til Use Case 4 – Oprette en ny quiz med indhold.
 
 Use case 6 - Se profil:
 - Beskrivelse: 
