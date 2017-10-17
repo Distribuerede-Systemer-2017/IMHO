@@ -28,7 +28,6 @@ public class dbmanager1 {
 
     }
 
-
     public User authorizeUser(String username, String password) throws IllegalArgumentException {
 
         ResultSet resultSet = null;
@@ -56,7 +55,5 @@ public class dbmanager1 {
         }
         return null;
     }
-
-
 
 }
