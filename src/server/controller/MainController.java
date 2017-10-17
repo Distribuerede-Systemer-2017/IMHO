@@ -15,22 +15,7 @@ public class MainController {
 
     public MainController() {
 
-        input.nextLine();
-        String username, password;
-        System.out.println("Du har valgt: Login\n");
-        System.out.println("Indtast dit brugernavn");
-        username = input.nextLine();
-        System.out.println("Indtast dit password");
-        password = input.nextLine();
-
-        boolean authUser = authUser(username, password);
-        if(authUser = true) {
-            System.out.println("hej");
-        } else {
-            System.out.println("ikke hej");
-        }
-
-}
+    }
 
     public boolean authUser(String username, String password) {
         User user = new User();

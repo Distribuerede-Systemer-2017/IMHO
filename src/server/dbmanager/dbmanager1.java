@@ -1,4 +1,5 @@
 package server.dbmanager;
+import java.nio.file.Path;
 import java.sql.*;
 
 import com.mysql.cj.api.mysqla.result.Resultset;
@@ -12,10 +13,14 @@ public class dbmanager1 {
     private static Connection connection = null;
 
     public dbmanager1() {
+
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            //connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        } catch (SQLException exception) {
+        } catch (Exception exception) {
             exception.printStackTrace();
+            System.out.println("demo");
         }
     }
 
@@ -40,12 +45,13 @@ public class dbmanager1 {
             authorizeUser.setString(2, password);
 
             resultSet = authorizeUser.executeQuery();
+            System.out.println("RS:" + resultSet);
 
             while(resultSet.next()) {
                 user = new User();
                 user.setIdUser(resultSet.getInt("idUser"));
                 user.setUsername(resultSet.getString("username"));
-                user.setPassword(resultSet.getString("password)"));
+                user.setPassword(resultSet.getString("password"));
                 user.setType(resultSet.getInt("type"));
 
             }
@@ -63,4 +69,18 @@ public class dbmanager1 {
         return user;
     }
 
+    public boolean createUser(User user) throws IllegalArgumentException {
+        try {
+            PreparedStatement createUser = connection.prepareStatement("INSERT INTO users (username, password) VALUES (?,?)");
+            createUser.setString(1,user.getUsername());
+            createUser.setString(2,user.getPassword());
+
+            int rowsAffected = createUser.executeUpdate();
+            if(rowsAffected == 1) {
+                return true;
+            }
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        } return false;
+    }
 }
