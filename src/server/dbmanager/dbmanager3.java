@@ -4,25 +4,26 @@ import server.models.Course;
 import server.models.Quiz;
 import server.resetdatabase.ResetDatabase;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 
 public class dbmanager3 {
 
-    private static final String URL = "jdbc:mysql://localhost/DBQuiz?useSSL=false";
+    private static final String URL = "jdbc:mysql://localhost:3306/quizDB?useSSL=false";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "1234";
-
+    private static final String PASSWORD = "root";
     private static Connection connection = null;
 
 
     private ResetDatabase resetdatabase;
 
     public dbmanager3() {
-        this.resetdatabase = resetdatabase;
+
+        try {
+            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
     }
 
     private static void close() {
@@ -36,6 +37,7 @@ public class dbmanager3 {
     public ArrayList<Course> loadCourses() {   //loadCourses
         ResultSet resultSet = null;
         ArrayList<Course> courses = new ArrayList<Course>();
+
         try {
             PreparedStatement loadCourse = connection.prepareStatement("SELECT * FROM Course");
                                             /* connection.prepareStatement(*/
