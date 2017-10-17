@@ -1,6 +1,7 @@
 package server.resetdatabase;
 
 import org.apache.ibatis.jdbc.ScriptRunner;
+import server.dbmanager.dbmanager4;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,6 +12,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ResetDatabase {
+
+    public ResetDatabase() throws Exception {
+    }
 
     private static String getWorkingDir() {
         return System.getProperty("user.dir");
@@ -86,4 +90,7 @@ public class ResetDatabase {
         executeSql(sqlFilePath);
         System.out.println("Sql script done!");
     }
+
+    dbmanager4 db = new dbmanager4();
+
 }
