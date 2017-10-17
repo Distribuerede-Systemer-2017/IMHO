@@ -7,7 +7,7 @@ public class User {
     private String username;
     private String password;
 
-    public User(int idUser, int type, String username, String password) {
+    public User(String username, String password) {
         this.idUser = idUser;
         this.type = type;
         this.username = username;
@@ -49,4 +49,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    // Test!
 }
