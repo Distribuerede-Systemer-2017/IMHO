@@ -15,9 +15,11 @@ How to:
   1. Fullfør steps for commit som beskrevet ovenfor. 
   2. Skriv i terminalen "git checkout branchnavn" for at tjeke at du arbejder på rigtig branch (ikke master). Som svar i terminalen bør du få en besked der siger at du allerede arbejder på respektive branch. 
   3. I terminalen "git push" - som svar bør der komme en bekreftelse på at det er blevet pushet til repository, evt. med link til hvorhen (ala "github.com/Distribuerende-systemer-2017/IMHO/....."). 
+
 Kommer der fejlmeldelelser kan der måske være fordi en skal udføre et "pull" før push. Dette kan gjøres ved følgende: 
   1. "git pull" i terminalen. 
   2. "git push" i terminalen (se step 3 ovenover) 
+
 Kommer der igen fejlmedelser kan man forsøge at skrive "git push origin branchnavn" i terminalen og her forvente samme output som i ovenstående step 3. 
  
   
