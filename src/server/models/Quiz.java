@@ -1,5 +1,11 @@
 package server.models;
 
+import server.resetdatabase.ResetDatabase;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
 public class Quiz {
 
     private int idQuiz;
@@ -9,7 +15,8 @@ public class Quiz {
     private String quizTitle;
     private String quizDescription;
     private int topicId;
-    private int virkerdet;
+
+
 
     public Quiz(int idQuiz, String createdBy, String url, int questionCount, String quizTitle, String quizDescription, int topicId) {
         this.idQuiz = idQuiz;
@@ -19,7 +26,10 @@ public class Quiz {
         this.quizTitle = quizTitle;
         this.quizDescription = quizDescription;
         this.topicId = topicId;
+
     }
+
+
 
     public int getIdQuiz() {
         return idQuiz;

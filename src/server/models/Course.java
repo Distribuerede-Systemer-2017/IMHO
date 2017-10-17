@@ -9,12 +9,18 @@ public class Course {
         this.idCourse = idCourse;
         this.courseTitle = courseTitle;
     }
+    public Course() {
+
+    }
+
 
     public int getIdCourse() {
+
         return idCourse;
     }
 
     public void setIdCourse(int idCourse) {
+
         this.idCourse = idCourse;
     }
 
