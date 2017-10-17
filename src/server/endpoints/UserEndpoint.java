@@ -1,22 +1,26 @@
 package server.endpoints;
 
 import com.google.gson.Gson;
+import server.dbmanager.dbmanager1;
 import server.models.User;
+import server.Utility.Digester;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 
-@Path("/user")
-
 
 public class UserEndpoint {
 
-    @GET
-    public Response get() {
-        System.out.println("hallo!");
+    dbmanager1 dbmanager1 = new dbmanager1();
 
-        return Response.status(200).entity("User").build();
+    @GET
+    @Path("{username}/{password}")
+    public Response authorizeUser(@PathParam("username") String username, @PathParam("password") String password) {
+
+        User userFound = dbmanager1.authorizeUser(username, password);
+
+        return Response.status(200).entity(new Gson().toJson(userFound)).build();
 
     }
 

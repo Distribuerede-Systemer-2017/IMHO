@@ -52,8 +52,15 @@ public class dbmanager1 {
 
         } catch(SQLException exception) {
             exception.printStackTrace();
+        } finally {
+            try {
+                resultSet.close();
+            } catch(SQLException exception) {
+                exception.printStackTrace();
+                close();
+            }
         }
-        return null;
+        return user;
     }
 
 }
