@@ -20,6 +20,10 @@ public class Quiz {
         this.topicId = topicId;
     }
 
+    public Quiz() {
+
+    }
+
     public int getIdQuiz() {
         return idQuiz;
     }

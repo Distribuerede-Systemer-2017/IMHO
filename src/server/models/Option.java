@@ -5,15 +5,17 @@ public class Option {
     private int idOption;
     private String option;
     private int questionIdQuestion;
-    private int questionQuizIdQuiz;
-    private int questionQuizTopicIdTopic;
+    private int isCorrect;
 
-    public Option(int idOption, String option, int questionIdQuestion, int questionQuizIdQuiz, int questionQuizTopicIdTopic) {
+    public Option(int idOption, String option, int questionIdQuestion, int isCorrect) {
         this.idOption = idOption;
         this.option = option;
         this.questionIdQuestion = questionIdQuestion;
-        this.questionQuizIdQuiz = questionQuizIdQuiz;
-        this.questionQuizTopicIdTopic = questionQuizTopicIdTopic;
+        this.isCorrect = isCorrect;
+    }
+
+    public Option() {
+
     }
 
     public int getIdOption() {
@@ -39,20 +41,11 @@ public class Option {
     public void setQuestionIdQuestion(int questionIdQuestion) {
         this.questionIdQuestion = questionIdQuestion;
     }
-
-    public int getQuestionQuizIdQuiz() {
-        return questionQuizIdQuiz;
+    public int getIsCorrect() {
+        return isCorrect;
     }
 
-    public void setQuestionQuizIdQuiz(int questionQuizIdQuiz) {
-        this.questionQuizIdQuiz = questionQuizIdQuiz;
-    }
-
-    public int getQuestionQuizTopicIdTopic() {
-        return questionQuizTopicIdTopic;
-    }
-
-    public void setQuestionQuizTopicIdTopic(int questionQuizTopicIdTopic) {
-        this.questionQuizTopicIdTopic = questionQuizTopicIdTopic;
+    public void setIsCorrect(int isCorrect) {
+        this.isCorrect = isCorrect;
     }
 }

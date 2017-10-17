@@ -2,12 +2,10 @@ package server.dbmanager;
 
 import server.models.Option;
 import server.models.Question;
-import server.models.Quiz;
 import server.models.User;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class dbmanager4 {
@@ -35,14 +33,14 @@ public class dbmanager4 {
        }
    }
 
-   public List<Question> getQuestion(Quiz quiz){
+   public ArrayList<Question> getQuestion(int quizId){
        ResultSet resultSet = null;
-       List<Question> questions = new ArrayList<>();
+       ArrayList<Question> questions = new ArrayList<>();
 
        try{
            PreparedStatement getQuestion = connection.prepareStatement("SELECT * FROM Question WHERE quiz_id = ?");
 
-           getQuestion.setInt(1,quiz.getIdQuiz());
+           getQuestion.setInt(1,quizId);
            resultSet = getQuestion.executeQuery();
 
            while(resultSet.next()){
@@ -68,8 +66,42 @@ public class dbmanager4 {
 
    }
 
+    public ArrayList<Option> getOption(Question question){
+        ResultSet resultSet = null;
+        ArrayList<Option> options = new ArrayList<>();
 
-   
+        try{
+            PreparedStatement getOption = connection.prepareStatement("SELECT * FROM Option WHERE question_id = ?");
+
+            getOption.setInt(1,question.getIdQuestion());
+            resultSet = getOption.executeQuery();
+
+            while(resultSet.next()){
+                Option option = new Option();
+                option.setIdOption(resultSet.getInt("idQuestion"));
+                option.setOption(resultSet.getString("option"));
+                option.setQuestionIdQuestion(resultSet.getInt("question_id"));
+                option.setIsCorrect(resultSet.getInt("is_correct"));
+
+                options.add(option);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                resultSet.close();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+                close();
+            }
+
+        }
+        return options;
+
+    }
+
+
    public User getUserProfile(String idUser) {
 
    ResultSet resultSet = null;
