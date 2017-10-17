@@ -45,6 +45,10 @@ public class dbmanager1 {
 
             while(resultSet.next()) {
                 user = new User();
+                user.setIdUser(resultSet.getInt("idUser"));
+                user.setUsername(resultSet.getString("username"));
+                user.setPassword(resultSet.getString("password)"));
+                user.setType(resultSet.getInt("type"));
 
             }
 
