@@ -9,6 +9,7 @@ public class Quiz {
     private String quizTitle;
     private String quizDescription;
     private int topicId;
+    private int virkerdet;
 
     public Quiz(int idQuiz, String createdBy, String url, int questionCount, String quizTitle, String quizDescription, int topicId) {
         this.idQuiz = idQuiz;
