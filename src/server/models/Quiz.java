@@ -29,6 +29,10 @@ public class Quiz {
 
     }
 
+    public Quiz() {
+
+    }
+
 
 
     public int getIdQuiz() {
