@@ -1,8 +1,12 @@
 package server.dbmanager;
 
+import server.models.Option;
+import server.models.Question;
 import server.models.User;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class dbmanager4 {
@@ -28,6 +32,16 @@ public class dbmanager4 {
        } catch (SQLException e){
            e.printStackTrace();
        }
+   }
+
+   public List<Question> getQuestion(Option options){
+       ResultSet resultSet = null;
+       List<Question> questions = new ArrayList<>();
+
+       try{
+           PreparedStatement getQuestion = connection.prepareStatement("SELECT * FROM Question WHERE")
+       }
+
    }
 
 
