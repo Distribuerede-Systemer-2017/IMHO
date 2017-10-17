@@ -124,10 +124,10 @@ Hvis man ikke har en bruger i forvejen, henvises	det	til	use	case	1,	hvor	man	ka
 
 
 Use case 9 - Svare på quiz spørgsmål:
-- Beskrivelse: 
-- Forudsætninger:
-- Uddybende beskrivelse:
-- Supplerende oplysninger:
+- Beskrivelse: Det skal være muligt for brugeren at svare på quiz spørgsmål og dermed teste hvor god man er til pågældende fag. 
+- Forudsætninger: Brugeren skal være logget ind.
+- Uddybende beskrivelse: Der skal være forskellige svarmuligheder som brugeren skal kunne vælge mellem. 
+- Supplerende oplysninger: Admin skal have lavet en test før brugeren kan besvare den.
 
 Use case 10 - Se samlet score på quiz:
 - Beskrivelse: 
