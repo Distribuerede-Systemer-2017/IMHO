@@ -5,13 +5,18 @@ public class Question {
     private int idQuestion;
     private String question;
     private int quizIdQuiz;
-    private int quizTopicIdTopic;
+    /*private int quizTopicIdTopic;*/
 
-    public Question(int idQuestion, String question, int quizIdQuiz, int quizTopicIdTopic) {
+    /*evt tilføj til parameter (slettet pr 17/10) int quizTopicIdTopic)*/
+    public Question(int idQuestion, String question, int quizIdQuiz) {
         this.idQuestion = idQuestion;
         this.question = question;
         this.quizIdQuiz = quizIdQuiz;
-        this.quizTopicIdTopic = quizTopicIdTopic;
+       /* this.quizTopicIdTopic = quizTopicIdTopic; */
+    }
+
+    public Question(){
+
     }
 
     public int getIdQuestion() {
@@ -38,11 +43,11 @@ public class Question {
         this.quizIdQuiz = quizIdQuiz;
     }
 
-    public int getQuizTopicIdTopic() {
+   /* public int getQuizTopicIdTopic() {
         return quizTopicIdTopic;
     }
 
     public void setQuizTopicIdTopic(int quizTopicIdTopic) {
         this.quizTopicIdTopic = quizTopicIdTopic;
-    }
+    } */
 }

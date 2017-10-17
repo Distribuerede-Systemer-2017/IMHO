@@ -1,6 +1,7 @@
 package server.dbmanager;
 
 import server.models.Course;
+import server.models.Question;
 import server.models.Quiz;
 import server.resetdatabase.ResetDatabase;
 
@@ -33,7 +34,7 @@ public class dbmanager3 {
             e.printStackTrace();
         }
     }
-
+    /* Method for loading courses. */
     public ArrayList<Course> loadCourses() {   //loadCourses
         ResultSet resultSet = null;
         ArrayList<Course> courses = new ArrayList<Course>();
@@ -65,7 +66,7 @@ public class dbmanager3 {
 
     }
 
-
+    /* Method for seeing available wquizzes within a chosen topic */
     public ArrayList<Quiz> loadQuizzes(int topicId) {
         ResultSet resultSet = null;
         ArrayList<Quiz> quizzes = new ArrayList<Quiz>();
@@ -101,4 +102,44 @@ public class dbmanager3 {
             return quizzes;
         }
     }
+
+    /*Method for starting quiz - hereby showing questionlist*/
+
+    public ArrayList<Question> loadQuestions (int quizId) {
+        ResultSet resultSet = null;
+        ArrayList<Question> questions = new ArrayList<Question>();
+        try {
+            PreparedStatement loadQuestions = connection
+                    .prepareStatement("SELECT * FROM Question WHERE quiz_id = ?");
+
+
+            loadQuestions.setInt(1, quizId);
+            resultSet = loadQuestions.executeQuery();
+
+
+            while (resultSet.next()) {
+                Question question = new Question();
+                question.setIdQuestion(resultSet.getInt("idQuestion"));
+                question.setQuestion(resultSet.getString("question"));
+                question.setQuizIdQuiz(resultSet.getInt("quiz_id"));
+                questions.add(question);
+
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                resultSet.close();
+            } catch (SQLException ef) {
+                ef.printStackTrace();
+                close();
+            }
+            return questions;
+        }
+
+    }
+
+
+
 }
