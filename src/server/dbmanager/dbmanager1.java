@@ -6,7 +6,6 @@ import server.models.User;
 
 
 public class dbmanager1 {
-
     private static final String URL = "jdbc:mysql://localhost:3306/quizDB?useSSL=false";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "hello";
