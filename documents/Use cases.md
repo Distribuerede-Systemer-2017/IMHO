@@ -131,9 +131,16 @@ Use case 9 - Svare på quiz spørgsmål:
 
 Use case 10 - Se samlet score på quiz:
 - Beskrivelse: 
+	En bruger skal i slutningen af en quiz kunne se det samlede antal rigtige svar. Brugerens score. Denne score fremvises i dette format 15/20 som angiver at der er besvaret 15 rigtige ud af 20 mulige. 
 - Forudsætninger:
+	For at dette kan ske skal brugeren først besvare alle spørgsmål i quizzen. Brugeren skal også være logget ind. 
 - Uddybende beskrivelse:
+	i. Brugeren vælger en quiz som beskrevet i use case 8. 
+	ii. Brugeren besvarer alle spørgsmål der er i quizzen. 
+	iii. Brugeren trykkere på knappen besvar quiz. 
+	iv. quizzens antal rigtige svar bliver nu fremvist til brugen. I dette format 15/20. hvor det første tal er antal rigtige svar, og det andet er antal spørgsmål. 
 - Supplerende oplysninger:
+
 
 Use case 11 - Log ud:
 •	Beskrivelse:
