@@ -1,7 +1,6 @@
 package server.dbmanager;
 import java.sql.*;
 
-import com.mysql.cj.api.mysqla.result.Resultset;
 import server.models.User;
 
 
@@ -13,8 +12,9 @@ public class dbmanager1 {
 
     public dbmanager1() {
         try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        } catch (SQLException exception) {
+        } catch (Exception exception) {
             exception.printStackTrace();
         }
     }

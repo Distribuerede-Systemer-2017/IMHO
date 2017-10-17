@@ -10,18 +10,14 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import server.dbmanager.dbmanager3;
 
-
+@Path("/courses")
 public class CourseEndpoint {
 
     dbmanager3 dbmanager = new dbmanager3();
 
     @GET
-    @Path("/Courses")
     public Response loadCourses (){
-
         ArrayList<Course> courses = dbmanager.loadCourses();
-        System.out.print(courses.size());
-
 
         return Response.status(200).entity(new Gson().toJson(courses)).build();
 
