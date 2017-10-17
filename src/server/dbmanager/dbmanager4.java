@@ -2,6 +2,7 @@ package server.dbmanager;
 
 import server.models.Option;
 import server.models.Question;
+import server.models.Quiz;
 import server.models.User;
 
 import java.sql.*;
@@ -34,13 +35,36 @@ public class dbmanager4 {
        }
    }
 
-   public List<Question> getQuestion(Option options){
+   public List<Question> getQuestion(Quiz quiz){
        ResultSet resultSet = null;
        List<Question> questions = new ArrayList<>();
 
        try{
-           PreparedStatement getQuestion = connection.prepareStatement("SELECT * FROM Question WHERE")
-       }
+           PreparedStatement getQuestion = connection.prepareStatement("SELECT * FROM Question WHERE quiz_id = ?");
+
+           getQuestion.setInt(1,quiz.getIdQuiz());
+           resultSet = getQuestion.executeQuery();
+
+           while(resultSet.next()){
+               Question question = new Question();
+               question.setIdQuestion(resultSet.getInt("idQuestion"));
+               question.setQuestion(resultSet.getString("question"));
+               question.setQuizIdQuiz(resultSet.getInt("quiz_id"));
+               questions.add(question);
+           }
+
+       } catch (SQLException e) {
+           e.printStackTrace();
+       } finally {
+        try {
+            resultSet.close();
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+            close();
+        }
+
+    }
+    return questions;
 
    }
 
