@@ -1,11 +1,11 @@
 package server.dbmanager;
 import java.sql.*;
 
+import com.mysql.cj.api.mysqla.result.Resultset;
 import server.models.User;
 
 
 public class dbmanager1 {
-
     private static final String URL = "jdbc:mysql://localhost:3306/quizDB?useSSL=false";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "hello";
@@ -27,4 +27,33 @@ public class dbmanager1 {
         }
 
     }
+
+    public User authorizeUser(String username, String password) throws IllegalArgumentException {
+
+        ResultSet resultSet = null;
+        User user = null;
+
+        try {
+            PreparedStatement authorizeUser = connection.prepareStatement("SELECT * from User where username = ? AND password = ?");
+
+            authorizeUser.setString(1, username);
+            authorizeUser.setString(2, password);
+
+            resultSet = authorizeUser.executeQuery();
+
+            while(resultSet.next()) {
+                user = new User();
+                user.setIdUser(resultSet.getInt("idUser"));
+                user.setUsername(resultSet.getString("username"));
+                user.setPassword(resultSet.getString("password)"));
+                user.setType(resultSet.getInt("type"));
+
+            }
+
+        } catch(SQLException exception) {
+            exception.printStackTrace();
+        }
+        return null;
+    }
+
 }
