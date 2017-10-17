@@ -8,13 +8,27 @@ import java.sql.*;
 
 public class dbmanager2 {
 
-    public dbmanager2 {
-        ResetDatabase resetDatabase = new ResetDatabase();
-    }
+        private static final String URL = "jdbc:mysql://localhost:3306/quizDB?useSSL=false";
+        private static final String USERNAME = "root";
+        private static final String PASSWORD = "hello";
+        private static Connection connection = null;
 
+        public dbmanager2() {
+            try {
+                connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            } catch (SQLException exception) {
+                exception.printStackTrace();
+            }
+        }
 
-    private DriverManager resetDatabase;
-    private Connection connection = resetDatabase.getConnection(false);
+        private static void close() {
+            try {
+                connection.close();
+            } catch (SQLException exception) {
+                exception.printStackTrace();
+            }
+
+        }
 
     public boolean createQuiz(Quiz quiz) throws IllegalArgumentException {
         try {
